@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Updated font for modern look */
+    background-color: #121212; /* Darker background for a sleek appearance */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 25px; /* Increased padding for better spacing */
+    background-color: #1e1e1e; /* Slightly lighter background for contrast */
+    border-radius: 15px; /* Rounded corners for a modern feel */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5); /* Stronger shadow for depth */
+}
+
+/* Header Styling */
+h1 {
+    font-size: 28px; /* Larger font size for emphasis */
+    color: #00d4ff; /* Bright accent color for visibility */
+    margin-bottom: 20px; /* Added spacing below the header */
+}
+
+/* Input and Button Styling */
+.input-container {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 12px; /* Increased padding for comfort */
+    margin-bottom: 15px; /* Better spacing between input and button */
+    border: none; /* Removed border for cleaner look */
+    border-radius: 5px;
+    background-color: #2b2b2b; /* Dark background for input field */
+    color: #fff; /* White text for readability */
+}
+
+input[type="text"]::placeholder {
+    color: #aaa; /* Subtle placeholder text color */
+}
+
+button {
+    background-color: #38668c; /* Vibrant blue button color */
+    color: #fff;
+    border: none;
+    padding: 12px 25px; /* Larger button size for better usability */
+    border-radius: 8px; /* Rounded corners for modern look */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Weather Info Styling */
+#weather-info {
+    margin-top: 25px;
+}
+
+#weather-info h2 {
+    font-size: 22px;
+    color: #5aba89; /* Matching header color for consistency */
+}
+
+#weather-info p {
+    font-size: 18px; /* Slightly larger text for readability */
+    color: #a8c1b5; /* Subtle text color to match theme */
+}
+
+/* Error Message Styling */
+#error-message {
+    margin-top: 20px;
+    color: #ff4d4d; /* Bright red error message color for visibility */
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
